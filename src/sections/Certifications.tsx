@@ -103,7 +103,7 @@ const Certifications: React.FC = () => {
                   Date: {cert.date}
                 </p>
                 {cert.credentialID && (
-                  <p className='text-sm text-gray-500 dark:text-gray-400 mb-2'>
+                  <p className='text-sm text-gray-500 dark:text-gray-400 mb-2 overflow-x-hidden'>
                     Credential ID: {cert.credentialID}
                   </p>
                 )}

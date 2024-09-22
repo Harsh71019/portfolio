@@ -12,60 +12,61 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: 'E-commerce Platform',
-    description:
-      'A full-stack e-commerce platform with user authentication, product catalog, and payment integration.',
-    image: '/path-to-ecommerce-image.jpg',
-    technologies: ['React', 'Node.js', 'Express', 'MongoDB'],
-    githubLink: 'https://github.com/yourusername/ecommerce-project',
-    liveLink: 'https://your-ecommerce-site.com',
+    title: 'Ford Extended Warranty Portal',
+    description: 'A full stack website in NextJS for Ford India',
+    image:
+      'https://res.cloudinary.com/harsh710/image/upload/f_auto,q_auto/v1/portfolio/websitess/uuzjhuqbi7glq07initf',
+    technologies: ['React', 'Node.js', 'NextJS', 'MongoDB'],
+    githubLink: 'https://github.com/Harsh71019/fordindia',
+    liveLink: 'https://fordindia.vercel.app/',
   },
   {
-    title: 'Task Management App',
-    description:
-      'A responsive task management application with real-time updates and team collaboration features.',
-    image: '/path-to-taskmanager-image.jpg',
+    title: 'Simple Quiz App in VueJS',
+    description: 'A simple quiz app in VueJS',
+    image:
+      'https://res.cloudinary.com/harsh710/image/upload/f_auto,q_auto/v1/portfolio/websitess/qtch3yjnsujddwrwd0li',
     technologies: ['Vue.js', 'Firebase', 'Vuex'],
-    githubLink: 'https://github.com/yourusername/task-manager',
-    liveLink: 'https://your-task-app.com',
+    githubLink: 'https://github.com/Harsh71019',
+    liveLink: 'https://quizvue-six.vercel.app/',
   },
   {
-    title: 'Task Management App',
+    title: 'Crosstower Crypto Website',
     description:
-      'A responsive task management application with real-time updates and team collaboration features.',
-    image: '/path-to-taskmanager-image.jpg',
-    technologies: ['Vue.js', 'Firebase', 'Vuex'],
-    githubLink: 'https://github.com/yourusername/task-manager',
-    liveLink: 'https://your-task-app.com',
+      'A responsive crypto website for a client called as Crosstower',
+    image:
+      'https://res.cloudinary.com/harsh710/image/upload/f_auto,q_auto/v1/portfolio/websitess/uiytrygdm54lvfwmirfp',
+    technologies: ['React', 'Node', 'AWS'],
+    githubLink: 'https://github.com/Harsh71019',
+    liveLink: 'https://crossui.vercel.app/',
   },
   {
-    title: 'Task Management App',
-    description:
-      'A responsive task management application with real-time updates and team collaboration features.',
-    image: '/path-to-taskmanager-image.jpg',
-    technologies: ['Vue.js', 'Firebase', 'Vuex'],
-    githubLink: 'https://github.com/yourusername/task-manager',
-    liveLink: 'https://your-task-app.com',
+    title: 'Mahindra Ecommerce Website Revamp',
+    description: 'Mahindra website revamping during my work tenure at Mahindra',
+    image:
+      'https://res.cloudinary.com/harsh710/image/upload/f_auto,q_auto/v1/portfolio/websitess/ew2yucxlilaavzfutdnf',
+    technologies: ['NextJS', 'Magento'],
+    githubLink: 'https://github.com/Harsh71019',
+    liveLink:
+      'https://vercel.com/harsh71019s-projects/m2all/DdXaWNzuadyD5GehQmaNZCjp4Vm3',
   },
   {
-    title: 'Task Management App',
-    description:
-      'A responsive task management application with real-time updates and team collaboration features.',
-    image: '/path-to-taskmanager-image.jpg',
+    title: 'Clip It twitch Clone',
+    description: 'A twitch clone using Firebase and Vue3 and Tailwind CSS',
+    image:
+      'https://res.cloudinary.com/harsh710/image/upload/f_auto,q_auto/v1/portfolio/websitess/k6maip1adokfgimgxpub',
     technologies: ['Vue.js', 'Firebase', 'Vuex'],
-    githubLink: 'https://github.com/yourusername/task-manager',
-    liveLink: 'https://your-task-app.com',
+    githubLink: 'https://github.com/Harsh71019',
+    liveLink: 'https://clips-3fvi8imue-harsh71019.vercel.app/',
   },
   {
-    title: 'Task Management App',
-    description:
-      'A responsive task management application with real-time updates and team collaboration features.',
-    image: '/path-to-taskmanager-image.jpg',
+    title: 'Accobuddy',
+    description: 'Student acommodation website (Ongoing)',
+    image:
+      'https://res.cloudinary.com/harsh710/image/upload/f_auto,q_auto/v1/portfolio/websitess/oar9xdupgu7xr6emxaky',
     technologies: ['Vue.js', 'Firebase', 'Vuex'],
-    githubLink: 'https://github.com/yourusername/task-manager',
-    liveLink: 'https://your-task-app.com',
+    githubLink: 'https://github.com/Harsh71019',
+    liveLink: 'https://www.accobuddy.com/',
   },
-  // Add more projects as needed
 ];
 
 const ProjectShowcase: React.FC = () => {

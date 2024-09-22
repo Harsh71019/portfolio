@@ -2,11 +2,19 @@ import React from 'react';
 import {
   FaGithub,
   FaLinkedin,
-  FaCodepen,
   FaHackerrank,
   FaStackOverflow,
 } from 'react-icons/fa';
 import { SiLeetcode, SiCodewars, SiCodeforces } from 'react-icons/si';
+import {
+  linkedinLink,
+  githubLink,
+  codeWarsLink,
+  leetCodeLink,
+  stackOverflowLink,
+  codeForcesLink,
+  hackerRankLink,
+} from '../constants';
 
 interface LinkItem {
   name: string;
@@ -17,49 +25,44 @@ interface LinkItem {
 const links: LinkItem[] = [
   {
     name: 'GitHub',
-    url: 'https://github.com/yourusername',
+    url: githubLink,
     icon: <FaGithub />,
   },
   {
     name: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/yourusername',
+    url: linkedinLink,
     icon: <FaLinkedin />,
   },
   {
     name: 'LeetCode',
-    url: 'https://leetcode.com/yourusername',
+    url: leetCodeLink,
     icon: <SiLeetcode />,
   },
   {
     name: 'CodeWars',
-    url: 'https://www.codewars.com/users/yourusername',
+    url: codeWarsLink,
     icon: <SiCodewars />,
   },
   {
-    name: 'CodePen',
-    url: 'https://codepen.io/yourusername',
-    icon: <FaCodepen />,
-  },
-  {
     name: 'HackerRank',
-    url: 'https://www.hackerrank.com/yourusername',
+    url: hackerRankLink,
     icon: <FaHackerrank />,
   },
   {
     name: 'Stack Overflow',
-    url: 'https://stackoverflow.com/users/youruserid',
+    url: stackOverflowLink,
     icon: <FaStackOverflow />,
   },
   {
     name: 'Codeforces',
-    url: 'https://codeforces.com/profile/yourusername',
+    url: codeForcesLink,
     icon: <SiCodeforces />,
   },
 ];
 
 const ProgrammingLinks: React.FC = () => {
   return (
-    <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
+    <div className='container mx-auto px-4 mt-20 sm:px-6 lg:px-8'>
       <h2 className='text-4xl sm:text-4xl  font-bold text-gray-900 dark:text-white mb-8'>
         Find Me Online 🌐
       </h2>

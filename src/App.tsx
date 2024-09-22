@@ -11,6 +11,7 @@ import ProjectShowcase from './sections/ProjectShowcase';
 import { useScrollToHash } from './hooks/useScrollToHash';
 import Certifications from './sections/Certifications';
 import CompanyCarousel from './sections/CompanyCarousel';
+import Footer from './components/Footer';
 
 const App: React.FC = () => {
   useScrollToHash();
@@ -26,6 +27,7 @@ const App: React.FC = () => {
         <SkillsShowcase />
         <ProjectShowcase />
         <Certifications />
+        <Footer />
       </Layout>
     </ThemeProvider>
   );

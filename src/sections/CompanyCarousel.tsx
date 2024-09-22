@@ -57,24 +57,28 @@ const CompanyCarousel: React.FC = () => {
   };
 
   return (
-    <section className='bg-gray-100 dark:bg-black-800 py-16'>
+    <section className='bg-gray-100 dark:bg-black py-16'>
       <div className='container mx-auto px-4'>
         <h2 className='text-3xl font-bold text-center text-gray-900 dark:text-white mb-8'>
           Companies I've Worked With
         </h2>
-        <Slider {...settings}>
-          {companies.map((company, index) => (
-            <div key={index} className='px-2'>
-              <div className='bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md flex items-center justify-center h-40'>
-                <img
-                  src={company.logo}
-                  alt={`${company.name} logo`}
-                  className='max-h-full max-w-full object-contain'
-                />
+        <div className='overflow-hidden'>
+          {' '}
+          {/* Add this wrapper */}
+          <Slider {...settings}>
+            {companies.map((company, index) => (
+              <div key={index} className='px-2'>
+                <div className='bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md flex items-center justify-center h-40'>
+                  <img
+                    src={company.logo}
+                    alt={`${company.name} logo`}
+                    className='max-h-full max-w-full object-contain'
+                  />
+                </div>
               </div>
-            </div>
-          ))}
-        </Slider>
+            ))}
+          </Slider>
+        </div>
       </div>
     </section>
   );

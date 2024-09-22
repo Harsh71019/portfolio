@@ -1,0 +1,7 @@
+export const linkedinLink = 'https://www.linkedin.com/in/harsh-patel-824aa9b7/'
+export const githubLink = 'https://github.com/Harsh71019/'
+export const codeWarsLink = 'https://www.codewars.com/users/Harsh71019'
+export const leetCodeLink = 'https://leetcode.com/u/grimplate/'
+export const stackOverflowLink = 'https://stackoverflow.com/users/12460553/harsh'
+export const codeForcesLink = 'https://codeforces.com/profile/grimplate'
+export const hackerRankLink = 'https://www.hackerrank.com/profile/harsh710patel'

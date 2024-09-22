@@ -19,13 +19,13 @@ const Hero = () => {
               "I Center Divs on the First Try" 🎯
             </h2>
             <p className='mt-5 text-gray-700 dark:text-gray-300'>
-              🚀 Software Engineer | 💡 Frontend Specialist | 🛠️ JavaScript
+              🚀 Software Engineer | 💡 Frontend Developer | 🛠️ JavaScript
               Enthusiast
             </p>
             <p className='mt-5 text-gray-700 dark:text-gray-300'>
-              Turning ☕ into code since 2018. Crafting exceptional user
-              experiences with React and Vue. Let's build something amazing
-              together!
+              Turning ☕ into code since 2018 and most importantly I love what I
+              do. Crafting exceptional user experiences with React and Vue.
+              Let's build something amazing together!
             </p>
             <button
               onClick={toggleImageCenter}
@@ -62,7 +62,7 @@ const Hero = () => {
               `}
               >
                 <img
-                  src='../../public/harsh.jpg'
+                  src='https://res.cloudinary.com/harsh710/image/upload/f_auto,q_auto/v1/portfolio/maqlmhnyga4eua4drigt'
                   alt='Harsh Patel'
                   className='w-full h-full object-cover'
                 />

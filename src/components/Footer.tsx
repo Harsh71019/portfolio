@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
       <div className='container mx-auto px-4 sm:px-6 lg:px-8 py-8'>
         <div className='flex flex-col md:flex-row justify-between items-center'>
           <div className='mb-4 md:mb-0'>
-            <h2 className='text-2xl font-bold text-gray-800 dark:text-white'>
+            <h2 className='text-2xl font-bold text-gray-800 dark:text-white text-center md:text-left'>
               Harsh Patel
             </h2>
             <p className='text-gray-600 dark:text-gray-300 mt-2'>
@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div className='mt-8 border-t border-gray-200 dark:border-gray-700 pt-8'>
-          <nav className='flex flex-wrap justify-center -mx-5 -my-2'>
+          <nav className='flex flex-wrap justify-center mx-5 my-2'>
             <div className='px-5 py-2'>
               <a
                 href='#about'

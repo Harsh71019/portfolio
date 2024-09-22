@@ -12,6 +12,30 @@ interface Certification {
 
 const certifications: Certification[] = [
   {
+    name: 'AWS Cloud Technicals',
+    issuer: 'Coursera',
+    date: 'August 2024',
+    credentialID: '8c85596759c3f74a2a1ff481c7dbc9e6',
+    url: ' https://coursera.org/share/8c85596759c3f74a2a1ff481c7dbc9e6',
+    logo: 'https://res.cloudinary.com/harsh710/image/upload/f_auto,q_auto/v1/portfolio/s7dcvdwdgqiqqttjkwnf',
+  },
+  {
+    name: 'NodeJS Developer Certification',
+    issuer: 'Udemy',
+    date: 'November 2023',
+    credentialID: 'UC-8ac17784-e210-4641-87ce-e20a7fa8c19c',
+    url: 'http://ude.my/UC-8ac17784-e210-4641-87ce-e20a7fa8c19c',
+    logo: 'https://res.cloudinary.com/harsh710/image/upload/f_auto,q_auto/v1/portfolio/ywfq7xxonpjb9tusaevu',
+  },
+  {
+    name: 'Advanced Javascript',
+    issuer: 'Udemy',
+    date: 'June 2021',
+    credentialID: 'UC-8ed9dcc0-0b16-4bce-9e61-2cc9ea28a630',
+    url: ' http://ude.my/UC-8ed9dcc0-0b16-4bce-9e61-2cc9ea28a630',
+    logo: 'https://res.cloudinary.com/harsh710/image/upload/f_auto,q_auto/v1/portfolio/dkipmx2qth8xmkgescqg',
+  },
+  {
     name: 'The Complete Python Developer',
     issuer: 'Udemy',
     date: 'June 2020',
@@ -34,38 +58,6 @@ const certifications: Certification[] = [
     credentialID: 'UC-3e350b78-e991-4f9f-9a0a-583097e57b78',
     url: 'http://ude.my/UC-32b1e64d-4efb-47cf-adff-10d4d247dd67',
     logo: 'https://res.cloudinary.com/harsh710/image/upload/f_auto,q_auto/v1/portfolio/q2ww6yrqkg10f0zosjuc',
-  },
-  {
-    name: 'NodeJS Developer Certification',
-    issuer: 'Udemy',
-    date: 'November 2023',
-    credentialID: 'UC-8ac17784-e210-4641-87ce-e20a7fa8c19c',
-    url: 'http://ude.my/UC-8ac17784-e210-4641-87ce-e20a7fa8c19c',
-    logo: 'https://res.cloudinary.com/harsh710/image/upload/f_auto,q_auto/v1/portfolio/ywfq7xxonpjb9tusaevu',
-  },
-  {
-    name: 'Advanced Javascript',
-    issuer: 'Udemy',
-    date: 'June 2021',
-    credentialID: 'UC-8ed9dcc0-0b16-4bce-9e61-2cc9ea28a630',
-    url: ' http://ude.my/UC-8ed9dcc0-0b16-4bce-9e61-2cc9ea28a630',
-    logo: 'https://res.cloudinary.com/harsh710/image/upload/f_auto,q_auto/v1/portfolio/dkipmx2qth8xmkgescqg',
-  },
-  {
-    name: 'Google Data Analytics',
-    issuer: 'Coursera',
-    date: 'July 2021',
-    credentialID: '9ae7788e50dfdac3e1ee5117a5638402',
-    url: ' https://coursera.org/share/9ae7788e50dfdac3e1ee5117a5638402',
-    logo: 'https://res.cloudinary.com/harsh710/image/upload/f_auto,q_auto/v1/portfolio/yyfd2goumkgs30k6mow9',
-  },
-  {
-    name: 'AWS Cloud Technicals',
-    issuer: 'Coursera',
-    date: 'August 2024',
-    credentialID: '8c85596759c3f74a2a1ff481c7dbc9e6',
-    url: ' https://coursera.org/share/8c85596759c3f74a2a1ff481c7dbc9e6',
-    logo: 'https://res.cloudinary.com/harsh710/image/upload/f_auto,q_auto/v1/portfolio/s7dcvdwdgqiqqttjkwnf',
   },
 ];
 

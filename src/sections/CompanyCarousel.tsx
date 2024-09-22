@@ -1,5 +1,5 @@
-import React from 'react';
 import Slider from 'react-slick';
+import React from 'react';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
@@ -25,7 +25,6 @@ const companies: Company[] = [
     name: 'Codezen Tech Solutions',
     logo: 'https://res.cloudinary.com/harsh710/image/upload/f_auto,q_auto/v1/portfolio/Company%20Logos/hxdbqh5kinnea1w2bngm',
   },
-  // Add more companies as needed
 ];
 
 const CompanyCarousel: React.FC = () => {
@@ -58,7 +57,7 @@ const CompanyCarousel: React.FC = () => {
   };
 
   return (
-    <section className='bg-gray-100 dark:bg-black py-16'>
+    <section className='bg-gray-100 dark:bg-black-800 py-16'>
       <div className='container mx-auto px-4'>
         <h2 className='text-3xl font-bold text-center text-gray-900 dark:text-white mb-8'>
           Companies I've Worked With
